@@ -1,0 +1,295 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://doi.org/10.3847/0004-637x/826/1/61">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0004-637X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aschwanden</foaf:surname>
+                        <foaf:givenName>Markus J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reardon</foaf:surname>
+                        <foaf:givenName>Kevin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jess</foaf:surname>
+                        <foaf:givenName>Dave B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_169"/>
+        <link:link rdf:resource="#item_166"/>
+        <dc:subject>IDL</dc:subject>
+        <dc:title>TRACING THE CHROMOSPHERIC AND CORONAL MAGNETIC FIELD WITH AIA,IRIS, IBIS, AND ROSA DATA</dc:title>
+        <dcterms:abstract>The aim of this study is to explore the suitability of chromospheric images for magnetic modeling of active regions. We use high-resolution images (), from the Interferometric Bidimensional Spectrometer in the Ca ii 8542 Å line, the Rapid Oscillations in the Solar Atmosphere instrument in the Hα 6563 Å line, the Interface Region Imaging Spectrograph in the 2796 Å line, and compare non-potential magnetic field models obtained from those chromospheric images with those obtained from images of the Atmospheric Imaging Assembly in coronal (171 Å, etc.) and in chromospheric (304 Å) wavelengths. Curvi-linear structures are automatically traced in those images with the OCCULT-2 code, to which we forward-fitted magnetic field lines computed with the Vertical-current Approximation Nonlinear Force Free Field code. We find that the chromospheric images: (1) reveal crisp curvi-linear structures (fibrils, loop segments, spicules) that are extremely well-suited for constraining magnetic modeling; (2) that these curvi-linear structures are field-aligned with the best-fit solution by a median misalignment angle of –7°; (3) the free energy computed from coronal data may underestimate that obtained from cromospheric data by a factor of –4, (4) the height range of chromospheric features is confined to km, while coronal features are detected up to h = 35,000 km; and (5) the plasma-β parameter is for all traced features. We conclude that chromospheric images reveal important magnetic structures that are complementary to coronal images and need to be included in comprehensive magnetic field models, something that is currently not accomodated in standard NLFFF codes.</dcterms:abstract>
+        <dc:date>July 2016</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Institute of Physics</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.3847/0004-637x/826/1/61</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2021-06-09 20:33:41</dcterms:dateSubmitted>
+        <dc:description>Publisher: American Astronomical Society</dc:description>
+        <bib:pages>61</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0004-637X">
+        <prism:volume>826</prism:volume>
+        <dc:title>The Astrophysical Journal</dc:title>
+        <dc:identifier>DOI 10.3847/0004-637X/826/1/61</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>ApJ</dcterms:alternative>
+        <dc:identifier>ISSN 0004-637X</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_169">
+        <rdf:value>&lt;p&gt;This paper discusses whether it's possible to use chromospheric images to create magnetic models of active regions (areas of intense magnetic activity, such as sunspots).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Paper automatically traces curvilinear segments (such as fibrils) using OCCULT-2 code.&lt;/li&gt;
+&lt;li&gt;One issue is that we still don't know what the magnetic field looks like in the chromosphere, which likely plays a part in the difference between observed coronal loop directions vs predicted.
+&lt;ul&gt;
+&lt;li&gt;Chromospheric magnetic field is the &quot;missing link&quot;&lt;/li&gt;
+&lt;li&gt;Found to be force free at 400 km. Is this above the photosphere limit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Code runs a &quot;vertical-current approximation&quot; assuming nonlinear force-free fields, used to generate models of chromospheric magnetic fields along chromospheric structures and coronal loops.&lt;/li&gt;
+&lt;li&gt;VCA-NLFFF method is found to have errors of only 4-5 degrees from observed values, compared to 24-44 degrees from standard NLFFF methods.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Vocab&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;Force-free&quot; magnetic loops imply plasma pressure can be considered negligible (compared to magnetic pressure)&lt;/li&gt;
+&lt;/ul&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_166">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/166/Aschwanden et al. - 2016 - TRACING THE CHROMOSPHERIC AND CORONAL MAGNETIC FIE.pdf"/>
+        <dc:title>IOP Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://iopscience.iop.org/article/10.3847/0004-637X/826/1/61/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2021-06-09 20:33:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Memo rdf:about="#item_167">
+        <z:itemType>note</z:itemType>
+        <rdf:value>&lt;p&gt;1 - Purpose&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;We're going to be looking at one particular solar feature: hot fibrils within the chromosphere, believed to exist along magnetic field lines. If we observe the chromosphere through a filter defined as the width of the H&lt;sub&gt;alpha&lt;/sub&gt; line (creating a temperature map), we see the early parts of these fibrils as the hottest part of the chromosphere.&lt;/p&gt;
+&lt;p&gt;Our purpose will be to computationally characterize these fibrils, including length, width, curvature, number, and  their change over time, in an effort to better understand how the chromosphere is heated.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_168">
+        <z:itemType>note</z:itemType>
+        <rdf:value>&lt;p&gt;2 - Questions&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Are images stored as arrays of intensity?&lt;/li&gt;
+&lt;/ol&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="https://doi.org/10.1007/s11207-010-9531-6">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1573-093X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aschwanden</foaf:surname>
+                        <foaf:givenName>Markus J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_173"/>
+        <link:link rdf:resource="#item_171"/>
+        <dc:relation rdf:resource="#item_176"/>
+        <dc:subject>IDL</dc:subject>
+        <dc:subject>OCCULT</dc:subject>
+        <dc:title>A Code for Automated Tracing of Coronal Loops Approaching Visual Perception</dc:title>
+        <dcterms:abstract>We develop a new numerical code with automated feature extraction, customized for tracing of coronal loops, a method we call Oriented Coronal CUrved Loop Tracing (OCCULT), which for the first time breaks even with the results of visual tracing. The method used is based on oriented-directivity tracing of curvi-linear features, but in contrast to other general feature-extraction algorithms, it is customized for solar EUV and SXR images by taking advantage of the specific property that coronal loops have large curvature radii compared with their widths. We evaluate the performance of this new code by comparing the cumulative distribution of loop lengths, the median and maximum loop lengths, the completeness of detection, and the congruency of the detected features with other numerical codes and visual tracings. We find that the new code closely approaches the results of visual perception and outperforms the other existing numerical codes. This algorithm is useful for the 3D reconstruction of the geometry, motion, and oscillations of coronal loops, with single or stereoscopic spacecraft, as well as for modeling of the loop hydrodynamics and the coronal magnetic field.</dcterms:abstract>
+        <dc:date>2010-04-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/s11207-010-9531-6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2021-06-10 17:04:09</dcterms:dateSubmitted>
+        <bib:pages>399-423</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1573-093X">
+        <prism:volume>262</prism:volume>
+        <dc:title>Solar Physics</dc:title>
+        <dc:identifier>DOI 10.1007/s11207-010-9531-6</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Sol Phys</dcterms:alternative>
+        <dc:identifier>ISSN 1573-093X</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_173">
+        <rdf:value>&lt;p&gt;Paper marks the first development of the OCCULT (Oriented Coronal CUrvilinear Loop Tracing) software, with results that approach visible perception of loops.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Used mostly with EUV and Solar X-Ray (SXR) images, since both have large curved radii compared to widths&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OCCULT (and similar software) available at &lt;a href=&quot;http://www.lmsal.com/~aschwand/software/&quot;&gt;http://www.lmsal.com/~aschwand/software/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Method&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Creates high-pass filtered image.&lt;/p&gt;
+&lt;p&gt;Loop statement:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Code looks for brightest peaks&lt;/li&gt;
+&lt;li&gt;Code determines if peaks are part of curved structures&lt;/li&gt;
+&lt;li&gt;If so, code looks for angle of the ridge&lt;/li&gt;
+&lt;li&gt;Code traces out curve in one direction according to an angle a, where a &amp;lt; a_max (a with margins).&lt;/li&gt;
+&lt;li&gt;If a_max is exceeded, creates an endpoint of the loop.&lt;/li&gt;
+&lt;li&gt;Returns to the coordinates of the brightest peak, traces in the opposite direction with same mechanism as above.&lt;/li&gt;
+&lt;li&gt;Loop coordinates are then grouped from one endpoint to another ([x1,y1],[x2,y2],...)&lt;/li&gt;
+&lt;li&gt;Loop is erased from the image so it does not interfere&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Run again if there are more bright peaks detected. Erase bright peak if not part of a loop.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_171">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/171/Aschwanden - 2010 - A Code for Automated Tracing of Coronal Loops Appr.pdf"/>
+        <dc:title>Aschwanden - 2010 - A Code for Automated Tracing of Coronal Loops Appr.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.mdpi.com/1099-4300/15/8/3007">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1099-4300"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aschwanden</foaf:surname>
+                        <foaf:givenName>Markus</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Pontieu</foaf:surname>
+                        <foaf:givenName>Bart</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Katrukha</foaf:surname>
+                        <foaf:givenName>Eugene</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_176"/>
+        <link:link rdf:resource="#item_174"/>
+        <dc:subject>IDL</dc:subject>
+        <dc:subject>OCCULT</dc:subject>
+        <dc:title>Optimization of Curvilinear Tracing Applied to Solar Physics and Biophysics</dc:title>
+        <dcterms:abstract>We developed an automated pattern recognition code that is particularly well suited to extract one-dimensional curvilinear features from two-dimensional digital images. A former version of this Oriented Coronal Curved Loop Tracing (OCCULT) code was applied to spacecraft images of magnetic loops in the solar corona, recorded with the NASA spacecraft, Transition Region And Coronal Explorer (TRACE), in extreme ultra-violet wavelengths. Here, we apply an advanced version of this code (OCCULT-2), also, to similar images from the Solar Dynamics Observatory (SDO), to chromospheric H-α images obtained with the Swedish Solar Telescope (SST) and to microscopy images of microtubule ﬁlaments in live cells in biophysics. We provide a full analytical description of the code, optimize the control parameters and compare the automated tracing with visual/manual methods. The traced structures differ by up to 16 orders of magnitude in size, which demonstrates the universality of the tracing algorithm.</dcterms:abstract>
+        <dc:date>2013-07-26</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.mdpi.com/1099-4300/15/8/3007</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2021-06-10 17:23:45</dcterms:dateSubmitted>
+        <bib:pages>3007-3030</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1099-4300">
+        <prism:volume>15</prism:volume>
+        <dc:title>Entropy</dc:title>
+        <dc:identifier>DOI 10.3390/e15083007</dc:identifier>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>Entropy</dcterms:alternative>
+        <dc:identifier>ISSN 1099-4300</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_176">
+        <rdf:value>&lt;p&gt;This paper describes the creation of the OCCULT-2 code, an advanced version of OCCULT.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Suppresses the background.
+&lt;ol&gt;
+&lt;li&gt;Identifies a median image intensity&lt;/li&gt;
+&lt;li&gt;If features of interest occupy less than 50% of the image area, the median intensity is a good indicator of background noise.&lt;/li&gt;
+&lt;li&gt;This background intensity is manually adjustable by some constant.&lt;/li&gt;
+&lt;li&gt;All points which have an intensity less than or equal to this background value are rendered constant and noiseless.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Lowpass filter applied to reduce noise; highpass filter applied to enhance structure.
+&lt;ol&gt;
+&lt;li&gt;Use boxcar smoothing for both, where each point is an average of w adjacent elements.&lt;/li&gt;
+&lt;li&gt;Combined, represent a bandpass filter&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Loop structures are identified. See Aschwanden 2010 for more details.&lt;/li&gt;
+&lt;li&gt;Loop structures are traced out. Second-order guiding is used here;&lt;/li&gt;
+&lt;li&gt;Loop area is set to zero within a half width (?), so the area of a previously detected loop is not used again.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Differences (from OCCULT)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Only two parameters: minimum curvature radius, and lowpass filter.&lt;/li&gt;
+&lt;/ul&gt;</rdf:value>
+        <dc:relation rdf:resource="https://doi.org/10.1007/s11207-010-9531-6"/>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_174">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/174/Aschwanden et al. - 2013 - Optimization of Curvilinear Tracing Applied to Sol.pdf"/>
+        <dc:title>Aschwanden et al. - 2013 - Optimization of Curvilinear Tracing Applied to Sol.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Memo rdf:about="#item_177">
+        <z:itemType>note</z:itemType>
+        <rdf:value>&lt;p&gt;3 - Next Steps&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Read through the OCCULT-2 paper &lt;strong&gt;(OK)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Download OCCULT-2 and get familiarized &lt;strong&gt;(OK&lt;/strong&gt;)&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;Run OCCULT-2 on sample set &lt;strong&gt;(OK&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Try manual identification using OpenCV in Python &lt;strong&gt;(OK)&lt;/strong&gt;&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;Enter key or ctrl+s to save two files: coordinates.csv, and characteristics.txt (length, num) (&lt;strong&gt;OK&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Argv path&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Snapshot a test sample of fibrils (width). Visually identify these fibrils (number, length, thickness)
+&lt;ol&gt;
+&lt;li&gt;Create a spreadsheet&lt;/li&gt;
+&lt;li&gt;install date done&lt;br /&gt;csv date created/modified&lt;br /&gt;HALPHA_WIDTH_MFBD_M300&lt;br /&gt;HALPHA_WINGINT_MFBD_M300&lt;br /&gt;tvscl,halpha_width_mfbd_m300 - GAUSS_SMOOTH(halpha_width_mfbd_m300,9,/edge_trunc)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;MatPlotLib todo:
+&lt;ol&gt;
+&lt;li&gt;Add extent (and offset) arguments&lt;/li&gt;
+&lt;li&gt;Add high-pass filter to image (See above)&lt;/li&gt;
+&lt;li&gt;Possible radius of a cruvature&lt;/li&gt;
+&lt;li&gt;&quot;Information parameters&quot;, possibly an array, that contains instrument data, date picture was taken, smoothing pixel size, etc (only needed once, just a sentence string?)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Run OCCULT-2 on fibrils, see how it matches up with manual identification.
+&lt;ol&gt;
+&lt;li&gt;IDL or OpenCV&lt;/li&gt;
+&lt;li&gt;Use SunPy or AstroPy from OpenCV&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Modify OCCULT-2 accordingly to better match manual identification&lt;/li&gt;
+&lt;/ol&gt;</rdf:value>
+    </bib:Memo>
+</rdf:RDF>
