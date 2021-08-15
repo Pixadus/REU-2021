@@ -1,10 +1,5 @@
 # Histogram
 
-This section is used to compare OCCULT-2 automatic tracings to manual tracings found through the Curve-Tracing folder. 
+This script is designed to help with optimizing OCCULT-2 parameter sets. This script is due for a revamp - right now, you'll need to specify the index of the parameters you're interested in within __histogram.py__, as well as offset and other details. 
 
-## TODO
-
-- [x] Visual histogram comparisons
-- [ ] Make this fully automatic. Once it's properly intepreting titles, should automatically provide best result. 
-- * To accomplish this, compare the differences between average curve lengths and total number of detected fibrils. Provide a list. 
-- [ ] Make a 'Use' section here. 
+Please contact me if you want to run this one. 
